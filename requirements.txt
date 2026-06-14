@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+joblib
+great_expectations
+SQLAlchemy
+psycopg2-binary
+torch
+kaggle
+jupyter
+ipykernel
+pyarrow
+info-nce-pytorch
+faiss-cpu

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: ml_course_project_postgres
+    environment:
+      POSTGRES_USER: aaa
+      POSTGRES_PASSWORD: 111
+      POSTGRES_DB: ml_course_project
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
