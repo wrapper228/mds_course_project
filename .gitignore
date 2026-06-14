@@ -1,0 +1,7 @@
+stage0_data/raw/*
+.venv
+*/__pycache__
+__pycache__
+__pycache__/*
+processing_data/*
+*.parquet
